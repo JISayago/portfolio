@@ -100,7 +100,7 @@
         "Redirecciona url dentro de la misma página gracias a la utilización de React-Router-Dom.",
         "Permite el envío de correo electrónico y contacto vía Whatsapp.",
         "Redirecciona a una página 404 si la página no existe."],
-        "repositorio":"https://github.com/JISayago/Arduino-Juego-Reflejos"
+        "repositorio":"https://github.com/JISayago/portfolio"
    }
    
 ]
