@@ -27,7 +27,7 @@ function DatosBasicos() {
         Me llamo Juan Ignacio Sayago.
       </h1>
       <div className='m-1  text-dark-orange text-bold'>
-        <Link className='flex flex-column justify-start' to={cv} target="_blank" download>
+        <Link className='flex flex-column justify-start mt-3' to={cv} target="_blank" download>
         <label className='m-1.5'><SiGooglesheets /></label>
         Descargar CV
         <label className='m-1.5'><SlCloudDownload /></label>

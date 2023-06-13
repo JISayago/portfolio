@@ -30,7 +30,7 @@ export default function Proyectos({props}) {
         {
           proyectList.length > 0 
                         ?
-                   <PaginatedItems proyectList={proyectList} itemsPerPage={2}/>
+                   <PaginatedItems proyectList={proyectList} itemsPerPage={3}/>
                         :
                         <Error404 props={mensaje}/>
         }

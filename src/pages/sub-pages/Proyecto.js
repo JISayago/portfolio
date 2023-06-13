@@ -33,12 +33,12 @@ function Proyecto() {
              </div>
          <div class="
          mbl:hidden
-         sml:flex sml:container  sml:mx-auto sml:px-5 sml:py-2 sml:px-32 sml:pt-12">
+         pcs:flex pcs:mx-auto pcs:px-5 pcs:py-2 w-full">
            <div class="m-1 flex w-full flex-wrap md:-m-2 justify-center ">
              {imagenes.map(imagen => <ProyectoImage props={imagen} />)}
            </div>          
          </div>
-         <div className='sml:hidden'>
+         <div className='pcs:hidden'>
          <Carrousel props={imagenes } />
          </div>
        </div>
