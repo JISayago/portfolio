@@ -2,6 +2,7 @@ import React,{useState} from 'react'
 import { useLocation } from 'react-router-dom';
 import { BsBoxArrowUpRight } from 'react-icons/bs';
 import ProyectoImage from '../../components/ProyectoImage';
+import Carrousel from '../../components/Carrousel';
 
 function Proyecto() {
 
@@ -30,12 +31,20 @@ function Proyecto() {
              {servicios.map(s => <li className='m-1 text-dark-orange'><label className='text-smoke'>{s}</label></li>)}
            </ul>
              </div>
-         <div class="container mx-auto px-5 py-2 lg:px-32 lg:pt-12">
-           <div class="-m-1 flex flex-wrap md:-m-2 justify-center ">
+         <div class="
+         mbl:hidden
+         sml:flex sml:container  sml:mx-auto sml:px-5 sml:py-2 sml:px-32 sml:pt-12">
+           <div class="m-1 flex w-full flex-wrap md:-m-2 justify-center ">
              {imagenes.map(imagen => <ProyectoImage props={imagen} />)}
-           </div>
+           </div>          
+         </div>
+         <div className='sml:hidden'>
+         <Carrousel props={imagenes } />
          </div>
        </div>
+
   )
+         
 }
 export default Proyecto;
+          

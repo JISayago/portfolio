@@ -3,8 +3,7 @@
     [{
         "id":1,
         "imagen": "https://live.staticflickr.com/65535/52936046068_b18b5f6e38_c.jpg",
-        "imagenes":[
-        "https://live.staticflickr.com/65535/52936046068_b18b5f6e38_c.jpg",
+        "imagenes":["https://live.staticflickr.com/65535/52936046068_b18b5f6e38_c.jpg",
         "https://live.staticflickr.com/65535/52957926608_d21e0ec426_z.jpg",
         "https://live.staticflickr.com/65535/52956873717_7b59e65e3e_c.jpg",
         "https://live.staticflickr.com/65535/52957617219_831348c5fd_c.jpg",
