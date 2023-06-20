@@ -3,7 +3,7 @@ import perfil from '../../images/moncho.jpg';
 
 function Presentacion() {
   return (
-    <div className='flex 
+    <div className='flex mt-11
      mbl:flex-col mbl:p-8
      sml:flex-row sml:justify-between'>                
       <img className='w-32 h-32 rounded-full flex
@@ -21,9 +21,10 @@ function Presentacion() {
         mbl:text-justify mbl:mt-3 mbl:bg-smoke-b mbl:text-dark-blue
         sml:text-justify 
         '>
-              Mi objetivo como programador es poder dar respuesta a solicitudes variadas, partiendo desde la corrección/modificación hasta desarrollar aplicaciones desde cero, según la necesidad. <br />
-              Por este motivo termino no eligiendo ninguna tecnología en particular y busco llegar al mejor resultado posible de acuerdo a lo solicitado, tanto en funcionamiento como en estética.
-            </p>
+          Mi objetivo principal es poder dar solución a las necesidades del cliente, partiendo desde modificaciones/cambios de aplicaciones existentes, hasta el  diseño y desarrollo de aplicaciones desde cero.
+          Por lo que no elijo ninguna tecnología en específico, sino que me adapto para encontar la solución más óptima para cada pedido.
+          Actualmente estoy trabajando en condición de freelance.
+        </p>
         </div>
     </div>
   )

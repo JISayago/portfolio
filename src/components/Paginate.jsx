@@ -1,11 +1,21 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import ReactPaginate from 'react-paginate';
 import ProyectoCard from "./ProyectoCard"
 import {AiOutlineArrowRight,AiOutlineArrowLeft} from 'react-icons/ai'
 
 // Example items, to simulate fetching from another resources.
 
-function PaginatedItems({ itemsPerPage, proyectList }) {
+function PaginatedItems({ buscar, itemsPerPage, proyectList }) {
+  const [current, setCurrent] = useState(0)
+  useEffect(() => {
+    if (buscar.length !== 0) {
+
+      const newOffset = (0 * itemsPerPage) % proyectList.length;
+      setItemOffset(newOffset);
+      setCurrent(0)
+    }
+   },[buscar])
+  
   // Here we use item offsets; we could also use page offsets
   // following the API or data you're working with.
   const [itemOffset, setItemOffset] = useState(0);
@@ -14,15 +24,15 @@ function PaginatedItems({ itemsPerPage, proyectList }) {
   // (This could be items from props; or items loaded in a local state
   // from an API endpoint with useEffect and useState)
   const endOffset = itemOffset + itemsPerPage;
-  console.log(`Loading items from ${itemOffset} to ${endOffset}`);
+  /*console.log(/*`Loading items from ${itemOffset} to ${endOffset}`*/
   const currentProyects = proyectList.slice(itemOffset, endOffset);
   const pageCount = Math.ceil(proyectList.length / itemsPerPage);
+
 
   // Invoke when user click to request another page.
   const handlePageClick = (event) => {
     const newOffset = (event.selected * itemsPerPage) % proyectList.length;
-    console.log(
-      `User requested page number ${event.selected}, which is offset ${newOffset}`
+    console.log(`User requested page number ${event.selected}, which is offset ${newOffset}`
     );
     setItemOffset(newOffset);
   };
@@ -38,24 +48,19 @@ function PaginatedItems({ itemsPerPage, proyectList }) {
       <ReactPaginate
           breakLabel=".."
           pageRangeDisplayed={1}
-        marginPagesDisplayed={1}
-        //pageClassName=""
-        //pageLinkClassName="page-link"
-        //previousLinkClassName="page-link"
-        //nextLinkClassName=""
-        //breakClassName="page-item"
-        //breakLinkClassName="page-link"
-        nextLabel=<AiOutlineArrowRight/>//>
-        previousLabel=<AiOutlineArrowLeft/>//<
-        onPageChange={handlePageClick}
-        pageCount={pageCount}
-        previousClassName="mt-1 text-dark-orange"
-        nextClassName="mt-1 text-dark-orange"
+          marginPagesDisplayed={1}
+          nextLabel=<AiOutlineArrowRight />//>
+          previousLabel=<AiOutlineArrowLeft />//<
+          onPageChange={handlePageClick}
+          pageCount={pageCount}
+          forcePage={current}
+          previousClassName="mt-1 text-dark-orange"
+          nextClassName="mt-1 text-dark-orange"
           containerClassName=" flex flex-row p-3 bg-transparent text-dark-orange rounded-xl text-bold justify-between border-b border-b-dark-orange
           mbl:w-2/5 mbl
           sml:w-1/5 " //container de numeros
-        activeClassName="w-7 bg-smoke text-center text-dark-blue rounded-full"//el elegido
-        renderOnZeroPageCount={null}
+          activeClassName="w-7 bg-smoke text-center text-dark-blue rounded-full"//el elegido
+          renderOnZeroPageCount={null}
       />
       </div>
       </>

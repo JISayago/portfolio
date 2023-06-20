@@ -7,7 +7,6 @@ export default function LinksSobreMi({cargarComponente}) {
         const clicked = document.getElementsByClassName('clicked')[0];
         if (clicked === undefined) { return };
         const link1 = document.getElementsByClassName(clicked.id)[0];
-        console.log(link1)
             link1.classList.add('sml:border-transparent');
             link1.classList.remove('clicked');
             link1.classList.remove('sml:border-smoke');

@@ -4,7 +4,6 @@ import { useNavigate } from 'react-router-dom'
 
 export default function ProyectoCard({ props  }) {
   const { id, imagen, imagenes, titulo, tecnologias, resumen, servicios, descripcion, repositorio } = props;
-  console.log(tecnologias)
   const [res, setRes] = useState("");
   const navigate = useNavigate();
   
