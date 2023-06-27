@@ -33,22 +33,30 @@ export default function LinksSobreMi({cargarComponente}) {
     <ul className='flex 
           mbl:flex-col mbl:p-6
           sml:flex-row sml:p-0 sml:mx-4 sml:px-2 sml:pt-2 '>
+              <div className='flex
+              mbl:flex-row mbl:justify-between
+              sml:flex-col'>                  
         <li onClick={() => selected(1)} id='1' className='1 clicked scale-110
-              mbl:p-2 mbl:border-l mbl:border-l-smoke mbl:mb-4
+              mbl:p-2 mbl:border-l mbl:border-l-smoke mbl:mb-4 mbl:w-1/2
               sml:mx-2 sml:mb-0 sml:rounded-t-xl sml:border-b-transparent sml:border-smoke sml:border transition ease-in-out hover:border-smoke hover:scale-110 hover:duration-150 hover:border-b-transparent'>
                   <Link className='font-bold text-dark-orange'>Presentación</Link></li>
         <li onClick={() => selected(2)} id='2' className='2 
-              mbl:p-2 mbl:border-l mbl:border-l-smoke mbl:mb-4
+              mbl:p-2 mbl:border-r mbl:border-r-smoke mbl:mb-4 mbl:w-1/2 mbl:text-right
               sml:mx-2 sml:mb-0 sml:rounded-t-xl sml:border-transparent sml:border transition ease-in-out hover:border-smoke hover:scale-110 hover:duration-150 hover:border-b-transparent'>
                   <Link className='font-bold text-dark-orange'>Datos Básicos</Link></li>
+              </div>
+              <div className='flex
+              mbl:flex-row mbl:justify-between
+              sml:flex-col'>                  
         <li onClick={() => selected(3)} id='3' className='3 
-              mbl:p-2 mbl:border-l mbl:border-l-smoke mbl:mb-4
+              mbl:p-2 mbl:border-l mbl:border-l-smoke mbl:mb-4 mbl:w-1/2
               sml:mx-2 sml:mb-0 sml:rounded-t-xl sml:border-transparent sml:border transition ease-in-out hover:border-smoke hover:scale-110 hover:duration-150 hover:border-b-transparent'>
-                  <Link className='font-bold text-dark-orange'>Educación / Formación</Link></li>
+                  <Link className='font-bold text-dark-orange'>Formación</Link></li>
         <li onClick={() => selected(4)} id='4' className='4 
-              mbl:p-2 mbl:border-l mbl:border-l-smoke mbl:mb-4
+              mbl:p-2 mbl:border-r mbl:border-r-smoke mbl:mb-4 mbl:w-1/2 mbl:text-right
               sml:mx-2 sml:mb-0 sml:rounded-t-xl sml:border-transparent sml:border transition ease-in-out hover:border-smoke hover:scale-110 hover:duration-150 hover:border-b-transparent'>
                   <Link className='font-bold text-dark-orange'>Trabajos</Link></li>
+              </div>
           </ul>
        </div>
   )
