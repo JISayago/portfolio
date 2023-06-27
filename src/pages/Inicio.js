@@ -27,10 +27,7 @@ export default function Inicio() {
         mbl:g-full
         sml:h-screen'>   
             <LinksSobreMi cargarComponente={cargarComponente} />
-            <div id='content'>
              {componente(opcion)}
-
-            </div>
         </div>
   )
 }
