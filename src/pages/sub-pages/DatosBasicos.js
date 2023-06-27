@@ -28,7 +28,7 @@ function DatosBasicos() {
   return (
     <div className='p-4 mt-6'>
       <h1 className='text-white flex font-mono font-bold text-3xl'>
-        Me llamo Juan Ignacio Sayago.
+        Soy Juan Ignacio Sayago.
       </h1>
       <div className='m-1  text-dark-orange text-bold'>
         <Link className='flex flex-column justify-start mt-3' to={cv} target="_blank" download>
