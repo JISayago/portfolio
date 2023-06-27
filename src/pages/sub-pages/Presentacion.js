@@ -21,7 +21,7 @@ function Presentacion() {
         sml:text-justify 
         '>
           Mi principal aspiración es dar solución a las necesidades del cliente incluyendo modificaciones y/o cambios de aplicaciones existentes, tanto como diseño y desarollo de nuevas aplicaciones.<br/>
-          Para concretar tales objetivos me adapto a la tecnología necesaria para encontarr la mejopr solución a cada pedido en particular.
+          Para concretar tales objetivos me adapto a la tecnología necesaria para encontrar la mejor solución a cada pedido en particular.
         </p>
         </div>
     </div>
