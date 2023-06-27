@@ -13,7 +13,7 @@ function DatosBasicos() {
   
   const gitPath = 'https://github.com/JISayago';
   const linkPath = 'https://www.linkedin.com/in/juan-ignacio-sayago-749694191/';
-  const cv = 'https://drive.google.com/file/d/1q6h4BshxIcngAZxLwGq0Aiuoxq745dmS/view?usp=share_link';
+  const cv = 'https://drive.google.com/file/d/1AlgCCHwf0VIXi5WtMLYbzXvlkWO2c9-n/view?usp=sharing';
 
   function handleRedirect(e, data) {
     e.preventDefault();

@@ -17,7 +17,7 @@ function Presentacion() {
               Hola!, mi nombre Juan Ignacio y soy programador.
             </h1>
         <p className='p-5 rounded-xl text-smoke font-mono text-md w-110        
-        mbl:text-start mbl:mt-3 mbl:mb-5 mbl:bg-smoke-b mbl:text-dark-blue
+        mbl:text-start mbl:mt-3 mbl:bg-smoke-b mbl:text-dark-blue
         sml:text-justify  
         '>
           Mi principal aspiración es dar solución a las necesidades del cliente incluyendo modificaciones y/o cambios de aplicaciones existentes, tanto como diseño y desarollo de nuevas aplicaciones.<br/>
