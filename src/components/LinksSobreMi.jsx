@@ -1,7 +1,9 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, redirect } from 'react-router-dom'
 
-export default function LinksSobreMi({cargarComponente}) {
+export default function LinksSobreMi({ cargarComponente }) {
+    
+    
  
     const classRemoveClick = () => {
         const clicked = document.getElementsByClassName('clicked')[0];
@@ -25,6 +27,7 @@ export default function LinksSobreMi({cargarComponente}) {
         cargarComponente(n);
         classRemoveClick();
         classAddClick(n);
+        redirect("#content")
  }
 
   return (
