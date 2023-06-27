@@ -4,7 +4,7 @@ function Educacion() {
   return (
     <div className='p-4 mt-6'>
      <h1 className='text-white flex font-mono font-bold text-3xl'>
-        Educación
+        Formación/Educación
       </h1>  
         <ul className='list-disc p-4 text-white font-mono text-md w-110'>          
         <li className='m-1 mb-6'><label className='m-1 text-decoration-line: underline font-bold text-base text-dark-orange'>Tecnicatura Universitaria en Programación:</label><label className='text-base'>Universidad Tecnológica Nacional (UTN-FRT), periodo 2018-2021. -Finalizado-.</label></li>

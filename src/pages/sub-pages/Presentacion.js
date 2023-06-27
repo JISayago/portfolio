@@ -3,9 +3,9 @@ import perfil from '../../images/moncho.jpg';
 
 function Presentacion() {
   return (
-    <div className='flex mt-11
-     mbl:flex-col mbl:p-8
-     sml:flex-row sml:justify-between'>                
+    <div className='flex 
+     mbl:flex-col mbl:mt-5 mbl:p-8      
+     sml:flex-row sml:mt-11 sml:justify-between'>                
       <img className='w-32 h-32 rounded-full flex
         mbl:self-center mbl:mb-8
         sml:mr-10 sml:self-center sml:mt-6 sml:ml-8
@@ -14,16 +14,14 @@ function Presentacion() {
         <h1 className='flex font-mono font-bold text-3xl
              mbl:text-white mbl:text-center
              sml:mb-2'>
-              Hola!, soy Juan Ignacio y soy programador.
+              Hola!, mi nombre Juan Ignacio y soy programador.
             </h1>
-        <p className='p-5 rounded-xl text-smoke font-mono text-md w-110
-        
-        mbl:text-justify mbl:mt-3 mbl:bg-smoke-b mbl:text-dark-blue
+        <p className='p-5 rounded-xl text-smoke font-mono text-md w-110        
+        mbl:text-start mbl:mt-3 mbl:bg-smoke-b mbl:text-dark-blue
         sml:text-justify 
         '>
-          Mi objetivo principal es poder dar solución a las necesidades del cliente, partiendo desde modificaciones/cambios de aplicaciones existentes, hasta el  diseño y desarrollo de aplicaciones desde cero.
-          Por lo que no elijo ninguna tecnología en específico, sino que me adapto para encontar la solución más óptima para cada pedido.
-          Actualmente estoy trabajando en condición de freelance.
+          Mi principal aspiración es dar solución a las necesidades del cliente incluyendo modificaciones y/o cambios de aplicaciones existentes, tanto como diseño y desarollo de nuevas aplicaciones.<br/>
+          Para concretar tales objetivos me adapto a la tecnología necesaria para encontarr la mejopr solución a cada pedido en particular.
         </p>
         </div>
     </div>

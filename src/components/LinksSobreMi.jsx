@@ -43,7 +43,7 @@ export default function LinksSobreMi({cargarComponente}) {
         <li onClick={() => selected(3)} id='3' className='3 
               mbl:p-2 mbl:border-l mbl:border-l-smoke mbl:mb-4
               sml:mx-2 sml:mb-0 sml:rounded-t-xl sml:border-transparent sml:border transition ease-in-out hover:border-smoke hover:scale-110 hover:duration-150 hover:border-b-transparent'>
-                  <Link className='font-bold text-dark-orange'>Educación</Link></li>
+                  <Link className='font-bold text-dark-orange'>Educación / Formación</Link></li>
         <li onClick={() => selected(4)} id='4' className='4 
               mbl:p-2 mbl:border-l mbl:border-l-smoke mbl:mb-4
               sml:mx-2 sml:mb-0 sml:rounded-t-xl sml:border-transparent sml:border transition ease-in-out hover:border-smoke hover:scale-110 hover:duration-150 hover:border-b-transparent'>
