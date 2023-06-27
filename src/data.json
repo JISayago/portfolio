@@ -19,7 +19,10 @@
         "Apertura, movimientos, cierre y balance de la Caja.",
         "Apertura, cierre y cobro total de las Mesas.",
         "Asignación de Mozos al servicio de cada mesa.",
-        "Registro de stock y venta de Productos."],
+        "Registro de stock y venta de Productos.",
+        "Control de ventas y registro de comprobantes",
+        "Registro de diversos modos de pago."
+     ],
         "repositorio":"https://github.com/JISayago/Xcommerce"
         
     },
@@ -43,11 +46,11 @@
          "Gestión ABM de Ciclos.",
          "Se muestra el estado de cliente. Se controlan pedidos, estado de deuda, y ventas.",
          "Control de pedidos de los clientes.",
-         "Posibilidad de vender productos de manera normal, sin depender necesariamente de haber realizado un pedido previamente.",
+         "Posibilidad de vender productos individualmente sin depender necesariamente de haber realizado un pedido previamente.",
          "Control de stock de productos. Detallando en colores en el caso de que haya o no stock en el momento. Pudiendo filtrar por productos con y sin Stock.",
          "Balance de un periodo de tiempo que puede elgirse seleccionando una fecha de incio y una fecha de fin.",
          "Carrito funcional para la venta de productos, con control de stock y balance.",
-         "Se muestran distintos detalles con íconos de diversos colores para indicar, por ejemplo en el caso de los clientes se detalla realizó un pedido o si debe dinero.",
+         "Se muestran distintos detalles con íconos de diversos colores para indicar, por ejemplo en el caso de los clientes se muestra si realizó un pedido o si debe dinero.",
          "Conversión de texto extraído de Whatsapp en registro automático del pedido y sus productos."],
         "repositorio":"https://github.com/JISayago/FinalTUP-UTN2021"
    },
@@ -62,10 +65,10 @@
         "titulo": "Venta Comics",
         "tecnologias": ["React","JavaScript","Css","Html"],
         "resumen": "Proyecto desarrollado a partir de la API gratuita bridada por Marvel.",
-        "descripcion": "Proyecto realizado para la práctica de la librería de React y el consumo de la Api pública de Marvel. Fué planteada como una web de ventas de comics y se utilizó, principalmente, para el aprendizaje de algunas funciones provistas por react: useState, useEffect y useContext. No cuenta con navegación, ya que es un apartado para agregar a futuro y cuenta con login y registro visuales pero no funcionales, ya que se trata de un proyecto enteramente front-end. Los estilos y transiciones fueron hechos con Css puro.",
+        "descripcion": "Proyecto realizado para la práctica de la librería de React y el consumo de la Api pública de Marvel. Fué planteada como una web de ventas de comics y se utilizó, principalmente, para el aprendizaje de algunas funciones provistas por react: useState, useEffect y useContext. No cuenta con navegación, ya que es un apartado para agregar a futuro y cuenta con login y registro visuales pero no funcionales, ya que se trata de un proyecto enteramente front-end. Los estilos y transiciones fueron hechos con Css.",
         "servicios":["Muestra el listado de comics, con la posibilidad de abrir un modal mostrando los detalles de cada uno y pudiéndolo agregar al carrito para su compra.",
          "Posee un buscador funcional, que se encarga de filtrar inmediatamente el listado de comics por título.",
-         "Tambiém posse un carrito que muestra los productos con su respectivo precio. También muestra el total del gasto y premite la eliminación de los comics no deseados.",
+         "Tambiém posse un carrito que muestra los productos con su respectivo precio. También muestra el total del gasto y permite la eliminación de los comics no deseados.",
          "Permite la visualizacion de un login y registro pero no funcionales."],
         "repositorio":"https://github.com/JISayago/Api-Comics-Marvel"
    },
@@ -79,10 +82,10 @@
         "titulo": "Juego de reflejos",
         "tecnologias": ["Arduino"],
         "resumen": "Se trata de un juego de reflejos, que cuenta con sensores conectados a una placa de arduino.",
-        "descripcion": "Se trata de un juego que busca medir el mejor tiempo de reacción entre el parpadeo de una luz led y la velocidad en que acercas la mano a un sensor de proximidad. Esta formado por una placa arduino uno, 3 led, 3 sensores de ultrasonido Hc-sr04 de distancia, 1 perilla (potenciómetro), 1 display 16x2,2 botones. Se trata de un proyecto realizado para la materia Laboratorio 3 (Robótica) en la Tecnicatura Universitaria en Programación UTN-FRT.",
+        "descripcion": "Se trata de un juego que busca medir el mejor tiempo de reacción entre el parpadeo de una luz led y la velocidad en que acercas la mano a un sensor de proximidad. Esta formado por una placa arduino uno, 3 led, 3 sensores de ultrasonido Hc-sr04 de distancia, 1 perilla (potenciómetro), 1 display 16x2,2 botones. Es un proyecto realizado para la materia Laboratorio 3 (Robótica) en la Tecnicatura Universitaria en Programación UTN-FRT.",
         "servicios":["Calcula la diferencia de tiempo desde que se enciende un led hasta que se acerca la mano a una cierta distancia del lector de ultrasonido.",
         "El juego cuenta con un menú que permite elegir entre tres niveles posibles, y un sub-menú para elegir los tiempos entre el encendido de un led y el encendido de otro.",
-        "El resultado del mejor tiempo de reaccion sera desplegado en un display, en el cual tambien va llevando la cuenta de aciertos/errores."],
+        "El resultado del mejor tiempo de reacción será desplegado en un display, en el cual tambien se muestra la cuenta de aciertos y errores."],
         "repositorio":"https://github.com/JISayago/Arduino-Juego-Reflejos"
    },
    {
@@ -94,11 +97,13 @@
         "titulo": "Portfolio-Personal",
         "tecnologias": ["React","Html","JavaScript","TailwindCss"],
         "resumen": "Página actual, portfolio personal.",
-        "descripcion": "Portfolio personal. Pagina desarrollada en React en la que se utilizó TailwindCss para los estilos. Fue creada para alojar mis proyectos personales y facilitar un medio de contacto con gente interesada en mis servicios. Además cuenta con la posibilidad de mandar un mail a través del formulario y se utilzia la API de Whatsapp que permite mandar mensaje directamente a mi número de contacto. Se utilizaron diversos paquetes node en los que se encuentran: React-router-dom, react-icons, EmailJs, SweetAlert, React-Icons, entre otros.",
-        "servicios":["Se muestran los proyectos con sus descripciones y respectivos links de GitHub.",
-        "Redirecciona url dentro de la misma página gracias a la utilización de React-Router-Dom.",
-        "Permite el envío de correo electrónico y contacto vía Whatsapp.",
-        "Redirecciona a una página 404 si la página no existe."],
+        "descripcion": "Portfolio personal. Pagina responsive, desarrollada en React en la que se utilizó TailwindCss para los estilos. Fue creada para alojar mis proyectos personales y facilitar un medio de contacto con gente interesada en mis servicios. Además cuenta con la posibilidad de mandar un mail a través del formulario y se utilzia la API de Whatsapp que permite mandar mensaje directamente a través de la aplicación de Whatsapp. Se utilizaron diversos paquetes node en los que se encuentran: React-router-dom, EmailJs, React-hook-form, DaisyUI, SweetAlert, React-Icons, entre otros.",
+        "servicios":["Redirecciona url dentro de la misma página gracias a la utilización de React-Router-Dom.",
+        "Se muestran los proyectos con sus descripciones y respectivos links de GitHub.",
+        "Posee un buscador funcional, que va mostrando resultados por cada letra agregada y filtra por las tecnologías de los proyectos, mostrando sólo aquellos que contienen la tecnología buscada.",
+        "Redirecciona a una página 404 si la página no existe y si no existen resultados filtrados por medio del buscador.",
+        "Permite el envío de correo electrónico directamente desde la sección de contacto llenando los campos solicitados en el formulario.",
+        "También se facilita el contacto a través de la aplicación de Whatsapp."],
         "repositorio":"https://github.com/JISayago/portfolio"
    }
    

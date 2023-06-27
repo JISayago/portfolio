@@ -67,6 +67,10 @@ function DatosBasicos() {
           <li className='m-1 text-dark-blue font-bold text-base'>-</li>
           <li className='m-1 text-dark-blue font-bold text-base'>Css</li>
           <li className='m-1 text-dark-blue font-bold text-base'>-</li>
+          <li className='m-1 text-dark-blue font-bold text-base'>TailwindCss</li>
+          <li className='m-1 text-dark-blue font-bold text-base'>-</li>
+          <li className='m-1 text-dark-blue font-bold text-base'>Bootstrap</li>
+          <li className='m-1 text-dark-blue font-bold text-base'>-</li>
           <li className='m-1 text-dark-blue font-bold text-base'>Php</li>
           <li className='m-1 text-dark-blue font-bold text-base'>-</li>
           <li className='m-1 text-dark-blue font-bold text-base'>C#-Windows Forms</li>
