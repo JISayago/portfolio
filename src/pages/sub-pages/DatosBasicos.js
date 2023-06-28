@@ -13,7 +13,7 @@ function DatosBasicos() {
   
   const gitPath = 'https://github.com/JISayago';
   const linkPath = 'https://www.linkedin.com/in/juan-ignacio-sayago-749694191/';
-  const cv = 'https://drive.google.com/file/d/1AlgCCHwf0VIXi5WtMLYbzXvlkWO2c9-n/view?usp=sharing';
+  const cv = 'https://drive.google.com/file/d/1nNveERdx36KU39d7-ceQ3WD_CNCOb3pY/view?usp=sharing';
 
   function handleRedirect(e, data) {
     e.preventDefault();
@@ -40,7 +40,7 @@ function DatosBasicos() {
       <ul className='list-disc text-base  p-4 text-white font-mono text-md w-110'>
         <li className='m-1 mb-6 text-dark-orange'><label className='text-smoke font-bold'>Tengo {edad} años y vivo en Yerba Buena, Tucumán, Argentina.</label></li>
         <li className='m-1 mb-6 text-dark-orange'><label className='text-smoke font-bold'>Actualmente me encuentro trabajando de manera freelance.</label></li>
-        <li className='m-1 mb-6 text-dark-orange'><label className='text-smoke font-bold'>También estoy formándome en el manejo de React Native, ya que considero que es una tecnología muy práctica y solicitada.</label></li>
+        <li className='m-1 mb-6 text-dark-orange'><label className='text-smoke font-bold'>Estoy formándome en el manejo de React Native, ya que considero que es una tecnología muy práctica y solicitada.</label></li>
         <li className='m-1 mb-6 text-dark-orange'>
         <button className='flex flex-row' onClick={(e) => handleRedirect(e, 1)}>
           <label className='flex text-smoke font-bold hover:text-dark-orange hover:scale-105 hover:underline'>
