@@ -67,9 +67,12 @@ function DatosBasicos() {
             </label>
         </button>
         </li>
-        <li className='m-1 mb-6 text-dark-orange'><label className='text-smoke font-bold'>Algunas de las tecnologías que ya utilicé son: </label></li>
+        <li className='m-1 mb-6 text-dark-orange'>
+          <label className='text-smoke font-bold'>Algunas de las tecnologías que ya utilicé son:</label>
+          </li>
+        <li className='flex justify-center'>
         <ul className='flex flex-wrap bg-smoke-b rounded-xl text-center p-2
-         mbl:flex-col mbl:mx-16 mbl:mt-4 mbl:w-2/3
+         mbl:flex-col justify-self-center mbl:mt-4 mbl:w-1/2
          sml:flex-row sml:justify-evenly sml:mx-0 sml:w-auto '>
           {tecnos.map(t => 
             <li className="badge mx-1 my-0.5 badge-outline text-dark-blue font-bold text-sm
@@ -77,7 +80,8 @@ function DatosBasicos() {
             sml:w-auto 
             ">{t.nombre}</li>
           ) }
-        </ul>
+          </ul>
+          </li>
       </ul>
     </div>
   )
