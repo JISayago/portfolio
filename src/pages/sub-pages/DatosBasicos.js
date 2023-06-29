@@ -62,27 +62,16 @@ function DatosBasicos() {
          mbl:flex-col mbl:mx-16 mbl:mt-4 mbl: w-2/3
          sml:flex-row sml:justify-evenly sml:mx-0 sml:w-auto '>
           <li className='m-1 text-dark-blue font-bold text-base'>HTML</li>          
-          <li className='m-1 text-dark-blue font-bold text-base'>-</li>
           <li className='m-1 text-dark-blue font-bold text-base'>Js</li>
-          <li className='m-1 text-dark-blue font-bold text-base'>-</li>
           <li className='m-1 text-dark-blue font-bold text-base'>Css</li>
-          <li className='m-1 text-dark-blue font-bold text-base'>-</li>
           <li className='m-1 text-dark-blue font-bold text-base'>TailwindCss</li>
-          <li className='m-1 text-dark-blue font-bold text-base'>-</li>
           <li className='m-1 text-dark-blue font-bold text-base'>Bootstrap</li>
-          <li className='m-1 text-dark-blue font-bold text-base'>-</li>
           <li className='m-1 text-dark-blue font-bold text-base'>Php</li>
-          <li className='m-1 text-dark-blue font-bold text-base'>-</li>
           <li className='m-1 text-dark-blue font-bold text-base'>C#-Windows Forms</li>
-          <li className='m-1 text-dark-blue font-bold text-base'>-</li>
           <li className='m-1 text-dark-blue font-bold text-base'>React JS</li>
-          <li className='m-1 text-dark-blue font-bold text-base'>-</li>
           <li className='m-1 text-dark-blue font-bold text-base'>Laravel</li>
-          <li className='m-1 text-dark-blue font-bold text-base'>-</li>
           <li className='m-1 text-dark-blue font-bold text-base'>Sql, MySql y T-Sql</li>
-          <li className='m-1 text-dark-blue font-bold text-base'>-</li>
           <li className='m-1 text-dark-blue font-bold text-base'>Git</li>
-          <li className='m-1 text-dark-blue font-bold text-base'>-</li>
           <li className='m-1 text-dark-blue font-bold text-base'>Power Builder</li>
         </ul>
       </ul>
