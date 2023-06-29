@@ -136,14 +136,14 @@
       "repositorio": "https://github.com/JISayago/portfolio"
     }
   ],
-  "tecnologías": [
+  "tecnologias": [
     {
       "id": 1,
       "nombre": "HTML"
     },
     {
       "id": 2,
-      "nombre": "Js"
+      "nombre": "JavaScript"
     },
     {
       "id": 3,

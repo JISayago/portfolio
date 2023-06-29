@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import data from "../../data.json";
 import { Link } from 'react-router-dom';
 import { SlCloudDownload } from 'react-icons/sl';
 import { SiGooglesheets } from 'react-icons/si';
@@ -14,6 +15,15 @@ function DatosBasicos() {
   const gitPath = 'https://github.com/JISayago';
   const linkPath = 'https://www.linkedin.com/in/juan-ignacio-sayago-749694191/';
   const cv = 'https://drive.google.com/file/d/1nNveERdx36KU39d7-ceQ3WD_CNCOb3pY/view?usp=sharing';
+
+  const [tecnos, setTecnos] = useState([]);
+
+  useEffect(() => {
+    setTecnos(data.tecnologias);
+  }, []);
+
+  console.log(tecnos)
+
 
   function handleRedirect(e, data) {
     e.preventDefault();
@@ -58,21 +68,15 @@ function DatosBasicos() {
         </button>
         </li>
         <li className='m-1 mb-6 text-dark-orange'><label className='text-smoke font-bold'>Algunas de las tecnologías que ya utilicé son: </label></li>
-        <ul className='flex bg-smoke-b rounded-xl text-center 
-         mbl:flex-col mbl:mx-16 mbl:mt-4 mbl: w-2/3
+        <ul className='flex flex-wrap bg-smoke-b rounded-xl text-center p-2
+         mbl:flex-col mbl:mx-16 mbl:mt-4 mbl:w-2/3
          sml:flex-row sml:justify-evenly sml:mx-0 sml:w-auto '>
-          <li className='m-1 text-dark-blue font-bold text-base'>HTML</li>          
-          <li className='m-1 text-dark-blue font-bold text-base'>Js</li>
-          <li className='m-1 text-dark-blue font-bold text-base'>Css</li>
-          <li className='m-1 text-dark-blue font-bold text-base'>TailwindCss</li>
-          <li className='m-1 text-dark-blue font-bold text-base'>Bootstrap</li>
-          <li className='m-1 text-dark-blue font-bold text-base'>Php</li>
-          <li className='m-1 text-dark-blue font-bold text-base'>C#-Windows Forms</li>
-          <li className='m-1 text-dark-blue font-bold text-base'>React JS</li>
-          <li className='m-1 text-dark-blue font-bold text-base'>Laravel</li>
-          <li className='m-1 text-dark-blue font-bold text-base'>Sql, MySql y T-Sql</li>
-          <li className='m-1 text-dark-blue font-bold text-base'>Git</li>
-          <li className='m-1 text-dark-blue font-bold text-base'>Power Builder</li>
+          {tecnos.map(t => 
+            <li className="badge mx-1 my-0.5 badge-outline text-dark-blue font-bold text-sm
+            mbl:w-full 
+            sml:w-auto 
+            ">{t.nombre}</li>
+          ) }
         </ul>
       </ul>
     </div>
