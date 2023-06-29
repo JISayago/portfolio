@@ -60,7 +60,7 @@ function DatosBasicos() {
         <li className='m-1 mb-6 text-dark-orange'><label className='text-smoke font-bold'>Algunas de las tecnologías que ya utilicé son: </label></li>
         <ul className='flex bg-smoke-b rounded-xl text-center 
          mbl:flex-col mbl:mx-16 mbl:mt-4 mbl: w-2/3
-         sml:flex-row sml:justify-evenly sml:mx-0 sml:w-auto'>
+         sml:flex-row sml:justify-evenly sml:mx-0 sml:w-auto '>
           <li className='m-1 text-dark-blue font-bold text-base'>HTML</li>          
           <li className='m-1 text-dark-blue font-bold text-base'>-</li>
           <li className='m-1 text-dark-blue font-bold text-base'>Js</li>

@@ -24,8 +24,8 @@ export default function Inicio() {
     
     return (            
         <div className='
-        mbl:g-full
-        sml:h-screen'>   
+        mbl:h-full
+        pcs:h-full'>   
             <LinksSobreMi cargarComponente={cargarComponente} />
              {componente(opcion)}
         </div>

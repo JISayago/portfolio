@@ -18,8 +18,10 @@ function App() {
   }, []);
 
   return ( 
+    
    
-      <BrowserRouter>
+    <BrowserRouter>
+      
         <Header />
         <Routes>
           <Route index path="/" element={<Inicio />} />

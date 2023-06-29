@@ -25,7 +25,10 @@ function Footer() {
     }
     
   return (
-      <footer className='flex mbl:p-2 pcs:p-8'>
+      <footer className='flex  
+      mbl:p-2 
+      sml:p-2 
+      pcs:p-8'>
           <div className='flex w-full justify-center'>
               <IconContext.Provider value={{ color: "#f45e00", size:"1.75rem"}}>                  
           <ul className='flex mbl:w-full mbl:flex-col sml:flex-row sml:justify-evenly pcs:w-full pcs:justify-center '>
