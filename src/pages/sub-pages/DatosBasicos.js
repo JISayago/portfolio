@@ -14,7 +14,7 @@ function DatosBasicos() {
   
   const gitPath = 'https://github.com/JISayago';
   const linkPath = 'https://www.linkedin.com/in/juan-ignacio-sayago-749694191/';
-  const cv = 'https://drive.google.com/file/d/1nNveERdx36KU39d7-ceQ3WD_CNCOb3pY/view?usp=sharing';
+  const cv = 'https://drive.google.com/file/d/1akbmwcdpZSbmWDzdwNeTxYY69f9VyUk5/view?usp=sharing';
 
   const [tecnos, setTecnos] = useState([]);
 
