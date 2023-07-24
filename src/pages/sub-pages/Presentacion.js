@@ -1,15 +1,14 @@
 import React from 'react';
-import perfil from '../../images/moncho.jpg';
+import ImagenPerfil from '../../components/ImagenPerfil';
 
 function Presentacion() {
   return (
     <div className='flex 
      mbl:flex-col mbl:mt-5 mbl:p-8      
-     sml:flex-row sml:mt-11 sml:justify-between'>                
-      <img className='w-32 h-32 rounded-full flex
-        mbl:self-center mbl:mb-8
-        sml:mr-10 sml:self-center sml:mt-6 sml:ml-8
-        ' src={perfil} alt='perfil.jpg' />
+     sml:flex-row sml:mt-11 sml:justify-between
+     pcs:items-center'
+    >                
+      <ImagenPerfil/>
         <div className='p-2'>
         <h1 className='flex font-mono font-bold text-3xl
              mbl:text-white mbl:text-center mbl:mb-2
