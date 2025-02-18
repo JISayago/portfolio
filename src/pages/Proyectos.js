@@ -1,13 +1,18 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Filter from '../components/Filter';
 import Error404 from '../components/Error404';
 import PaginatedItems from '../components/Paginate';
+import data from "../data.json";
 
 
-export default function Proyectos({props}) {
+export default function Proyectos() {
+  const [proyectos, setProyectos] = useState([]);
+  useEffect(() => {
+    setProyectos(data.proyectos);
+  }, []);
   
   const [buscar, setBuscar] = useState([])
-  let proyectList = props;
+  let proyectList = proyectos;
 
   let mensaje = "No se encontraron proyectos con tecnología solicitada";
   const handleChange = (e) => {
@@ -16,7 +21,7 @@ export default function Proyectos({props}) {
 }
 
   if (buscar.length !== 0) {
-   proyectList =  props.filter(
+   proyectList =  proyectos.filter(
         p => p.tecnologias
             .toString()
             .toLowerCase()

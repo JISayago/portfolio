@@ -1,0 +1,51 @@
+{
+    "trabajos": [
+      {
+        "titulo": "Programador Freelance",
+        "detalle": "Diseñé y desarrollé sitios web, gestionando cada etapa desde la planificación hasta la implementación. Me enfoqué en comprender las necesidades de cada cliente, brindando asesoramiento y asegurando una comunicación fluida. Además, me encargué de la configuración del hosting y la puesta en producción para garantizar un servicio completo. 2023-Actualidad"
+      },
+      {
+        "titulo": "Soporte IT",
+        "detalle": "Soporte remoto para cliente en EE.UU y administración de su servidor Windows, se realizaron tareas de instalación y optimización de software. Soporte en el uso de plugins de WordPress. También se realizo un esquema para el armado de hardware para firewall y diversas tareas IT. 2023-2024"
+      },
+      {
+        "titulo": "Programador en Censys S.A",
+        "detalle": "Me encargué del mantenimiento de un sistema bancario, optimizando sus funcionalidades y corrigiendo errores en la base de datos para garantizar su eficiencia. Además, brindé soporte técnico a los usuarios y colaboré con distintos departamentos para mejorar el sistema según las necesidades del negocio. 2022-2023"
+      },
+      {
+        "titulo": "Profesor particular",
+        "detalle": "Brindé apoyo escolar en Física, Físico-Química, Matemática y Computación, adaptando los métodos de enseñanza al nivel y necesidades de cada estudiante. 2019"
+      },
+      {
+        "titulo": "Reparación de Pc",
+        "detalle": "Realicé mantenimiento y reparación de equipos, incluyendo diagnóstico, solución de fallas, limpieza y armado. Además, brindé asesoramiento técnico sobre hardware y mejoras según las necesidades del cliente. 2018-Actualidad"
+      }
+    ],
+    "educacion": [
+      {
+        "titulo": "Curso dictado por Rolling Code School",
+        "detalle": "Programación Fullstack (HTML, Javascript, Css, MERN), periodo 2024 -Finalizado-."
+      },
+      {
+        "titulo": "Tecnicatura Universitaria en Programación",
+        "detalle": "Universidad Tecnológica Nacional (UTN-FRT), periodo 2018-2021. -Finalizado-."
+      },
+      {
+        "titulo": "Curso dictado por Digital House",
+        "detalle": "Programación Fullstack (HTML, Javascript, Css, Laravel y MySql), periodo 2019-2020. -Finalizado-."
+      },
+      {
+        "titulo": "Curso dictado por INI Computación",
+        "detalle": "Reparación de Pc y Redes, periodo 2017-2018. -Finalizado-."
+      },
+      {
+        "titulo": "Psicología",
+        "detalle": "Facultad de Psicología UNT, periodo 2012-2017. -Sin Finalizar-."
+      },
+      {
+        "titulo": "Secundario Completo",
+        "detalle": "Colegio Parroquial El Salvador, -Finalizado en el año 2011-."
+      }
+    ]
+  }
+  

@@ -25,7 +25,8 @@ function Footer() {
     }
     
   return (
-      <footer className='flex  
+      <footer className='flex
+      mt-auto
       mbl:p-2 
       sml:p-2 
       pcs:p-8'>

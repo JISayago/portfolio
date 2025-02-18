@@ -7,8 +7,6 @@ function Contacto() {
 
   const renderSending = () => {
     setSending(true);
-
-    console.log(sending)
   }
   const renderEmail = () => {
     setSending(false);
