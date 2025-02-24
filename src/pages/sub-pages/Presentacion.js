@@ -2,7 +2,7 @@ import React from 'react';
 import ImagenPerfil from '../../components/ImagenPerfil';
 
 function Presentacion() {
-  const texto = "Tengo experiencia en desarrollo y mantenimiento de sistemas, gestión de bases de datos y soporte técnico. A lo largo de mi trayectoria, he trabajado en distintos sectores de IT, lo que me ha permitido desarrollar una sólida capacidad para resolver problemas y optimizar procesos, siempre priorizando soluciones funcionales y eficientes. Mi objetivo es brindar soluciones que se adapten a las necesidades del cliente, ya sea mediante la mejora y modificación de aplicaciones existentes o el diseño y desarrollo de nuevas."
+  const texto = "Soy profesional en el área de desarrollo y cuento con experiencia en distintos sectores de IT. A lo largo de mi trayectoria, he desarrollado habilidades en resolución de problemas, priorizando siempre soluciones funcionales. Mi objetivo es formar parte de un equipo donde pueda contribuir con mis conocimientos y seguir adquiriendo nuevas experiencias para continuar creciendo profesionalmente."
   return (
     <div className='flex 
      mbl:flex-col mbl:mt-5 mbl:p-8      
