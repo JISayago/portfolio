@@ -2,6 +2,7 @@
   "proyectos": [
     {
       "id": 1,
+      "fecha":"08/2019",
       "imagen": "https://live.staticflickr.com/65535/52936046068_b18b5f6e38_c.jpg",
       "imagenes": [
         "https://live.staticflickr.com/65535/52936046068_b18b5f6e38_c.jpg",
@@ -30,6 +31,7 @@
     },
     {
       "id": 2,
+      "fecha":"12/2021",
       "imagen": "https://live.staticflickr.com/65535/52936046063_d6828735f7_h.jpg",
       "imagenes": [
         "https://live.staticflickr.com/65535/52936046063_d6828735f7_h.jpg",
@@ -70,6 +72,7 @@
     },
     {
       "id": 3,
+      "fecha":"03/2022",
       "imagen": "https://live.staticflickr.com/65535/52940478064_e7f1438b6a_h.jpg",
       "imagenes": [
         "https://live.staticflickr.com/65535/52956910257_a77122d147_h.jpg",
@@ -92,6 +95,7 @@
     },
     {
       "id": 4,
+      "fecha":"09/2020",
       "imagen": "https://live.staticflickr.com/65535/52940932448_5ff87b998d_z.jpg",
       "imagenes": [
         "https://live.staticflickr.com/65535/52942431962_a34dc3ab13_z.jpg",
@@ -112,6 +116,7 @@
     },
     {
       "id": 5,
+      "fecha":"02/2023",
       "imagen": "https://live.staticflickr.com/65535/52941085979_fc87c47756_h.jpg",
       "imagenes": [
         "https://live.staticflickr.com/65535/53006159208_ea85d789d3_h.jpg",
@@ -134,6 +139,66 @@
         "También se facilita el contacto a través de la aplicación de Whatsapp."
       ],
       "repositorio": "https://github.com/JISayago/portfolio"
+    },
+    {
+      "id": 6,
+      "fecha":"07/2024",
+      "imagen": "https://live.staticflickr.com/65535/54336754522_71b73313c6_h.jpg",
+      "imagenes": [
+        "https://live.staticflickr.com/65535/54337874559_e6237e5ea0_h.jpg",
+        "https://live.staticflickr.com/65535/54337886228_6bc6880b51_h.jpg",
+        "https://live.staticflickr.com/65535/54337874579_239c6d72f8_h.jpg",
+        "https://live.staticflickr.com/65535/54337874574_17cb0db4c1_h.jpg",
+        "https://live.staticflickr.com/65535/54337886218_21f54a1374_h.jpg",
+        "https://live.staticflickr.com/65535/54337659156_38672d4cbe_h.jpg"
+      ],
+      "titulo": "Gestor de Locales",
+      "tecnologias": ["React", "Html", "JavaScript", "TailwindCss"],
+      "resumen": "Proyecto Freelance. A pedido para gestionar varios locales de un mismo dueño. Con diversos empleados y productos en común.",
+      "descripcion": "Este proyecto freelance fue desarrollado a pedido de un cliente para la gestión de múltiples locales bajo un mismo propietario. La plataforma permitía administrar empleados y productos en común, además de integrar la gestión de proveedores, pedidos y ventas, brindando una solución completa para la administración del negocio. También contaba con un sistema de control de usuarios con distintos niveles de acceso, asegurando una gestión segura y organizada. El proyecto quedó en una etapa de diseño y desarrollo parcial debido a razones personales del cliente, sin llegar a completarse ni implementarse en producción. A pesar de ello, representa una muestra del trabajo realizado en la creación de soluciones personalizadas para la gestión empresarial, con una estructura robusta y adaptable a las necesidades de comercios con múltiples puntos de venta.",
+    "servicios": [
+  "Permite la gestión de múltiples locales bajo un mismo propietario, centralizando la administración.",
+  "Facilita el control de empleados y la asignación de roles con distintos niveles de acceso.",
+  "Incluye un sistema de gestión de productos en común entre los distintos locales.",
+  "Incorpora la administración de proveedores, permitiendo su registro y seguimiento.",
+  "Permite la gestión de pedidos, controlando el estado y detalle de cada solicitud.",
+  "Cuenta con un sistema de ventas, registrando transacciones y generando reportes.",
+  "Ofrece control de usuarios con permisos diferenciados para garantizar seguridad y organización.",
+  "Desarrollado con React y Tailwind CSS, asegurando una interfaz moderna y responsive.",
+  "Utiliza React-Router-Dom para la navegación interna entre secciones.",
+  "Proyecto en fase de desarrollo que quedó inconcluso por razones personales del cliente."
+],
+      "repositorio": "https://github.com/JISayago/Gestor"
+    },
+    {
+      "id": 7,
+      "fecha":"12/2024",
+      "imagen": "https://live.staticflickr.com/65535/54340482382_3e61b5651c_b.jpg",
+      "imagenes": [
+        "https://live.staticflickr.com/65535/54341379401_c2561a6dd0_b.jpg",
+        "https://live.staticflickr.com/65535/54340482362_2bb4203530_c.jpg",
+        "https://live.staticflickr.com/65535/54341608513_32b6b63ce5_c.jpg",
+        "https://live.staticflickr.com/65535/54341608503_7935c533ee_c.jpg",
+        "https://live.staticflickr.com/65535/54341799310_d1504a03ab_z.jpg",
+        "https://live.staticflickr.com/65535/54341799345_3668b928dd_z.jpg"
+      ],
+      "titulo": "Página AgroH",
+      "tecnologias": ["React", "Html", "JavaScript", "TailwindCss", "Mysql","Node","Express", "Knex"],
+      "resumen": "Proyecto Freelance. Desarrollo de un sistema para una empresa que buscaba presentarse y exhibir sus productos y servicios, así como las empresas con las que trabaja.",
+      "descripcion": "Este proyecto freelance fue desarrollado a pedido de una empresa que buscaba una plataforma para presentarse y mostrar sus productos, servicios y las empresas con las que colabora. La solución incluye un carrito de compras para que los clientes puedan cargar pedidos, facilitando la gestión de productos de manera intuitiva. El sistema fue diseñado para ofrecer una navegación sencilla y atractiva, asegurando una presentación clara de la empresa y sus servicios. Además, cuenta con una estructura escalable que permite futuras mejoras e integraciones según las necesidades del negocio. El proyecto fue entregado en producción y representa un ejemplo del desarrollo de soluciones personalizadas para empresas que requieren una presencia digital profesional y una gestión eficiente de sus productos y pedidos.",
+"servicios": [
+  "Permite a la empresa presentarse y mostrar sus productos, servicios y empresas con las que colabora.",
+  "Facilita la búsqueda de productos mediante filtros por categoría, marca y palabras clave.",
+  "Incluye opciones de ordenamiento por precio, rango de precios y disponibilidad.",
+  "Cuenta con un carrito de compras que permite a los clientes cargar pedidos sin realizar la compra directa.",
+  "Los pedidos generados en el carrito se envían automáticamente a un correo de contacto para su gestión.",
+  "Ofrece una sección de presentación y contacto con integración de correo electrónico.",
+  "Permite a los usuarios consultar directamente desde la página de cada producto.",
+  "Integra una API para obtener automáticamente la cotización del dólar y actualizar precios en tiempo real.",
+  "Desarrollado con React y Tailwind CSS, asegurando una interfaz moderna, responsive y eficiente.",
+  "Utiliza React-Router-Dom para una navegación fluida entre secciones del sitio."
+],
+      "repositorio": "https://github.com/JISayago/Agroh-v1"
     }
   ],
   "tecnologias": [
